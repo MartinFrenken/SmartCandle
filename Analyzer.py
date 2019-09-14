@@ -42,6 +42,7 @@ def print_red_doji_green_count(candle_collection):
                 red_candle_after_previous_red_candles_and_doji_count += 1
 
     return ("Out of the "+str(doji_count) +" dojis "+ str(previous_red_doji_count) + " dojis had two red candles before occuring and out of those dojis "+ str(green_candle_after_previous_red_candles_and_doji_count)+ " had a green candle after occuring")
+    #Todo make this a lot shorter!
 
 def previous_candles_are_red(candle_collection, candle_position):
     previous_red_candle_amount = 2
