@@ -27,7 +27,7 @@ def get_doji_count(candle_collection):
 
     return doji_count
 
-def get_red_doji_green_count(candle_collection):
+def print_red_doji_green_count(candle_collection):
 
     green_candle_after_previous_red_candles_and_doji_count=0
     red_candle_after_previous_red_candles_and_doji_count=0
@@ -63,5 +63,5 @@ def next_candle_is_green(candle_collection, candle_position):
             return True
         return False
 
-text = get_red_doji_green_count(candle_list)
+text = print_red_doji_green_count(candle_list)
 print(text)
